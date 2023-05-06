@@ -11,7 +11,9 @@ def login():
     return bandera
 
 def signUp():
-    print("Crear")
+    nusuario=input("Ingresa el nombre del nuevo usuario")
+    npassword=input("Ingresa la nueva contraseña")
+    print("El nuevo usuario y contraseña han sido creados con exito")
 def menu():
     seleccion=""
     while seleccion!="y":
