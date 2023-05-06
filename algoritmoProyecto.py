@@ -1,3 +1,4 @@
+import random
 peliculas=["Mario Bross","Godzilla","Rapidos y furiosos, dom vs tanos","Gigantes de acero","Pacific rim"]
 
 
@@ -22,7 +23,8 @@ def menu():
             signUp()
             seleccion="y"
         b=login()
-        print(b)
+        if b:
+            print(peliculas[random.randint(0,len(peliculas)-1)])
 menu()
     
     
