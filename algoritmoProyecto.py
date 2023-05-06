@@ -25,6 +25,8 @@ def menu():
         b=login()
         if b:
             print(peliculas[random.randint(0,len(peliculas)-1)])
+        else:
+            login()
 menu()
     
     
